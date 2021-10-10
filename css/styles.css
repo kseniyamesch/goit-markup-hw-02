@@ -1,0 +1,172 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-title-color: #212121;
+    --secondary-title-color: #FFFFFF;
+    --header-color: #000000;
+    --primary-text-color: #757575;
+    --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: Roboto, Roboto Slab ;
+    color: var(--primary-text-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+ul {list-style: none;}
+a {text-decoration: none;}
+.logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-color {
+    color: var(--header-color);
+}
+/* ...................................header.................................... */
+.header-item { font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
+.header-link {
+    color: var(--primary-title-color);
+}
+.header-link:hover, .header-link:focus {
+ color: var(--accent-color);   
+}
+.header-contacts-link {
+    color: var(--primary-text-color);
+}
+.header-contacts-link:hover, .header-contacts-link:focus {
+    color: var(--accent-color);
+}
+
+/* ...................................hero-main.................................... */
+.hero {
+    background-color: #2F303A;
+}
+.hero-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-title-color);
+}
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--secondary-title-color);
+    cursor: pointer;
+}
+
+/*..................................... advantages.................................. */
+.advantage-header {
+    font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-title-color);
+}
+.advantage-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/*..................................... activity.................................. */
+
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);}
+
+    /*................................... team ...................................*/
+.team-title {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-title-color);
+}
+.team-text {
+    font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+/* .......................................footer ..................................*/
+.address {
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-title-color);
+}
+.footer-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+    background-color:  #2F303A;
+}
+.footer-link:focus, .footer-link:hover {
+    color: var(--accent-color);
+}
+    
+/* .....................................portfolio-buttons............................ */
+.portfolio-btn {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-title-color);
+cursor: pointer;
+}
+.portfolio-btn:hover, .portfolio-btn:focus {
+    color: var(--secondary-title-color)
+}
+/* ...................................projecrs .........................*/
+.project-title {
+    font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--primary-title-color);
+}
+.project-text {
+    font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+}
