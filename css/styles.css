@@ -33,13 +33,13 @@ a {text-decoration: none;}
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-.logo-color {
+.primary-logo-color {
     color: var(--header-color);
 }
 /* ...................................header.................................... */
 .header-item { font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 
 }
@@ -70,6 +70,7 @@ a {text-decoration: none;}
     color: var(--secondary-title-color);
 }
 .hero-btn {
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -126,6 +127,7 @@ color: var(--primary-text-color);
 }
 /* .......................................footer ..................................*/
 .address {
+    font-style: normal;
     font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -143,9 +145,13 @@ color: var(--secondary-title-color);
 .footer-link:focus, .footer-link:hover {
     color: var(--accent-color);
 }
+.secondary-logo-color {
+    color: var(--secondary-title-color);
+}
     
 /* .....................................portfolio-buttons............................ */
 .portfolio-btn {
+    font-family: Roboto;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
